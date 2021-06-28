@@ -1,0 +1,535 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+}
+
+.container{
+    width: 960px;
+    min-height: 700px;
+    margin: auto;
+    background-color: white;
+}
+
+.container .header{
+    background-color: burlywood;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+}
+
+.container .header .one{
+    background-color: grey;
+    width: 2%;
+    height: 3px;
+    padding: 4px;
+    border-radius: 100%;
+}
+
+.container .header .two{
+    background-color: grey;
+    width: 2%;
+    height: 3px;
+    padding: 4px;
+    border-radius: 100%;
+}
+
+.container .header .three{
+    background-color: grey;
+    width: 3%;
+    height: 10px;
+    padding: 5px;
+    border-radius: 100% 0 0 100%;
+}
+
+.container .header .four{
+    width: 92%;
+    height: 15px;
+    padding: 4px;
+    background-color: white;
+}
+
+.container .header .five{
+    width: 2%;
+    height: 5px;
+    padding: 5px;
+    border-radius: 100%;
+    background-color: grey;
+}
+
+.container .header .six{
+    background-color: grey;
+    width: 2%;
+    height: 5px;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.container .header .seven{
+    background-color: grey;
+    width: 2%;
+    height: 5px;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.container .top{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .top .top1{
+    width: 3%;
+    height: 20px;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: grey;
+    border-radius: 100%;
+}
+
+.container .top .top2{
+    width: 10%;
+    padding: 20px;
+    height: 15px;
+}
+
+.container .top .top3{
+    width: 10%;
+    height: 15px;
+    padding: 20px;
+    background-color: grey;
+}
+
+.container .top .top4{
+    width: 10%;
+    height: 15px;
+    padding: 15px;
+    background-color: grey;
+}
+
+.container .top .top5{
+    width: 13%;
+    height: 20px;
+    padding: 15px;
+    background-color: grey;
+    margin-right: 70px;
+}
+
+.container .body{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    justify-content: space-between;
+}
+.container .body .main{
+    width: 50%;
+    height: 100%;
+    background-color: burlywood;
+}
+
+.container .body aside{
+    margin:10px;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container .body .mainside{
+    background-color: burlywood;
+    width: 70%;
+    height: 30px;
+}
+
+.container .body .mainside3{
+    background-color: burlywood;
+    width: 90%;
+    height: 10px;
+    margin-top: 10px;
+}
+
+.container .body .mainside4{
+    background-color: burlywood;
+    width: 90%;
+    height: 10px;
+    margin-top: 10px;
+   
+}
+
+.container .body .mainside5{
+    background-color: burlywood;
+    width: 90%;
+    height: 10px;
+    margin-top: 10px;
+}
+
+.container .body .mainside6{
+    background-color: burlywood;
+    width: 70%;
+    height: 10px;
+    margin-top: 10px;
+}
+
+.container .body .mainside7{
+    background-color: burlywood;
+    width: 90%;
+    height: 10px;
+    margin-top: 50px;
+}
+
+.container .body .mainside8{
+    background-color: burlywood;
+    width: 90%;
+    height: 10px;
+    margin-top: 10px;
+}
+
+.container .body .mainside9{
+    background-color: burlywood;
+    width: 90%;
+    height: 10px;
+    margin-top: 10px;
+}
+
+.container .body .mainside10{
+    background-color: burlywood;
+    width: 70%;
+    height: 10px;
+    margin-top: 10px;
+}
+
+
+
+.container .section{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.container .section .section1{
+    height: 100%;
+    width: 32%;
+    background-color: burlywood;
+
+}
+
+.container .section .section2{
+    height: 100%;
+    width: 33%;
+    background-color: burlywood;
+}
+
+.container .section .section3{
+    height: 100%;
+    width: 33%;
+    background-color: burlywood;
+}
+
+.container .my-section{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    height: 20px;
+    justify-content: space-between;
+}
+
+.container .my-section .my-section1{
+    height: 100%;
+    width: 20%;
+    background-color: gray;
+}
+
+.container .my-section .my-section2{
+    height: 100%;
+    width: 20%;
+    background-color: gray;
+    margin-right: 3px;
+}
+
+.container .my-section .my-section3{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(180, 143, 143);
+    margin-right: 113px;
+}
+
+
+
+.container .division{
+    display: flex;
+    width: 100%;
+    height:10px;
+    justify-content: space-between;
+    margin-top: 5px;
+   }
+
+.container .division .division1{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(180, 143, 143);
+   }
+
+.container .division .division2{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(180, 143, 143);
+   }
+
+.container .division .division3{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(180, 143, 143);
+   }
+
+.container .main-footer{
+    width: 100%;
+    height: 180px;
+    background-color: burlywood;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+
+.container .main-footer .main-footer1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 8px;
+   }
+.container .main-footer .main-footer2{
+    background-color:grey;
+    width: 20%;
+    height: 15px;
+    margin-top: 15px;
+   }
+
+.container .main-footer .main-footer3{
+    background-color:grey;
+    width: 20%;
+    height: 15px;
+    margin-top: 15px;
+   }
+
+.container .main-footer .main-footer4{
+    width: 20%;
+    height: 15px;
+    margin-top: 15px;
+    background-color:grey ;
+   }
+
+.container .main-footer .main-footer5{
+    width: 20%;
+    height: 15px;
+    background-color:grey ;
+    margin-top: 15px;
+   }
+   
+.container .main-footer .first-footer{
+    display: flex;
+    width: 100%;
+    height: 15px;
+    justify-content: space-evenly;
+   }
+   
+.container .main-footer .second-footer{
+    width: 20%;
+    height: 15px;
+    background-color:gray;
+    margin-top: 20px;
+   }
+
+.container .main-footer .third-footer{
+    width: 20%;
+    height: 15px;
+    background-color:gray;
+    margin-top: 20px;
+   }
+   
+.container .main-footer .fourth-footer{
+    width: 20%;
+    height: 15px;
+    background-color:gray;
+    margin-top: 20px;
+   }
+   
+.container .main-footer .fifth-footer{
+    justify-content: space-around;
+    width: 20%;
+    height: 15px;
+    margin-top: 20px;
+    display: flex;
+   }
+   
+.container .main-footer .fifth-footer .subclass1{
+    background-color:gray;
+    width: 3%;
+    height: 15px;
+   }
+   
+.container .main-footer .fifth-footer .subclass2{
+    width: 3%;
+    height: 15px;
+    background-color:gray;
+   }
+   
+.container .main-footer .fifth-footer .subclass3{
+    background-color:gray;
+    width: 3%;
+    height: 15px;
+   }
+   
+.container .main-footer .fifth-footer .subclass4{
+    background-color:gray;
+    width: 3%;
+    height: 15px;
+   }
+   
+.container .main-footer .fifth-footer .subclass5{
+    background-color:gray;
+    width: 3%;
+    height: 15px;
+   }
+   
+.container .main-footer .finalfooter{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 15px;
+   }
+   
+.container .main-footer .finalfooter .finalfooter1{
+    width: 20%;
+    height: 15px;
+    background-color:gray;
+    margin-top: 30px;
+   }
+   
+.container .main-footer .finalfooter .finalfooter2{
+    width: 20%;
+    height: 15px;
+    background-color:gray;
+    margin-top: 30px;
+   }
+   
+.container .main-footer .finalfooter .finalfooter3{
+    width: 20%;
+    height: 15px;
+    background-color:gray;
+    margin-top: 30px;
+   }
+   
+.container .main-footer .finalfooter .finalfooter4{
+    width: 20%;
+    height: 15px;
+    background-color:gray;
+    margin-top: 30px;
+   }
+   
+.container .main-footer .futa{
+    display: flex;
+    width: 100%;
+    height: 15px;
+    justify-content: space-evenly;
+   }
+   .container .main-footer .futa .futa1{
+    width: 20%;
+    height: 15px;
+    background-color:gray;
+    margin-top: 40px;
+   }
+   .container .main-footer .futa .futa2{
+    width: 20%;
+    height: 15px;
+    background-color:gray;
+    margin-top: 40px;
+   }
+   .container .main-footer .futa .futa3{
+    width: 20%;
+    height: 15px;
+    background-color:gray;
+    margin-top: 40px;
+   }
+   .container .main-footer .futa .futa4{
+    width: 20%;
+    height: 15px;
+    background-color:gray;
+    margin-top: 40px;
+   }
+   .container .main-footer .fulta{
+    display: flex;
+    width: 100%;
+    height: 15px;
+    justify-content: space-evenly;
+   }
+   .container .main-footer .fulta .fulta1{
+    width: 20%;
+    height: 15px;
+    background-color:gray;
+    margin-top: 50px;
+   }
+   .container .main-footer .fulta .fulta2{
+    width: 20%;
+    height: 15px;
+    background-color:gray;
+    margin-top: 50px;
+   }
+   .container .main-footer .fulta .fulta3{
+    width: 20%;
+    height: 15px;
+    background-color:gray;
+    margin-top: 50px;
+   }
+   .container .main-footer .fulta .fulta4{
+    width: 20%;
+    height: 15px;
+    background-color:gray;
+    margin-top: 50px;
+   }
+   .container .main-footer .forta{
+    display: flex;
+    width: 100%;
+    height: 15px;
+    justify-content: space-evenly;
+   }
+   .container .main-footer .forta1{
+    width: 20%;
+    height: 15px;
+    background-color:gray;
+    margin-top: 60px;
+   }
+   
+   .container .main-footer .forta1{
+    width: 20%;
+    height: 15px;
+    background-color:gray;
+    margin-top: 60px;
+   }
+   .container .main-footer .forta2{
+    width: 20%;
+    height: 15px;
+    background-color:gray;
+    margin-top: 60px;
+   }
+   .container .main-footer .forta3{
+    width: 20%;
+    height: 15px;
+    background-color:gray;
+    margin-top: 60px;
+   }
+   
+   .container .main-footer .forta4{
+    width: 20%;
+    height: 15px;
+    background-color:gray;
+    margin-top: 60px;
+   }
